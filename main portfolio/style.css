@@ -224,7 +224,7 @@ img {
     border-radius: 50%;
 }
 
-#services {
+#projects {
     background-color: var(--background);
 }
 
@@ -234,7 +234,7 @@ img {
     margin: 0.5em 0;
 }
 
-.service-container {
+.project-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2em;
@@ -270,6 +270,23 @@ img {
 .box img {
     min-width: 25px;
     border-radius: 0.5em;
+}
+
+.check{
+    padding: 0.5em 1em;
+    color: black;
+    font-weight: 500;
+    letter-spacing: 1px;
+    border-radius: 0.5em;
+    font-size: 1.1em;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.check:hover{
+    background-color: black;
+    color: white;
 }
 
 #contact {
